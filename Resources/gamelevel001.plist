@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>levelinfo</key>
+    <dict>
+      <key>bgimg</key>
+	    <string>HelloWorld.png</string>
+      <key>mapfile</key>
+      <string>level1.tmx</string>
+      <key>money</key>
+      <integer>500</integer>
+	  </dict>
+  <key>npcgroup</key>
+  <array>
+    <array>
+      <dict>
+        <key>npctype</key>
+        <integer>1</integer>
+        <key>npcHp</key>  
+        <string>10</string>
+      </dict>
+    </array>
+   <array>
+      <dict>
+        <key>npctype</key>
+        <integer>1</integer>
+        <key>npcHp</key>  
+        <string>10</string>
+      </dict>
+      <dict>
+        <key>npctype</key>
+        <integer>1</integer>
+        <key>npcHp</key>  
+        <string>10</string>
+      </dict>
+    </array>
+  </array>
+   </dict>
+</plist>

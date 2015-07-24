@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+  <tile id="2">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="red" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYB5AzEgkpsT8waqXFv4dLBgA3wMBmw==
+  </data>
+ </layer>
+ <objectgroup name="road" width="15" height="10">
+  <object name="1" x="80" y="80"/>
+  <object name="2" x="369" y="79"/>
+  <object name="3" x="369" y="210"/>
+  <object name="4" x="176" y="209"/>
+ </objectgroup>
+</map>
